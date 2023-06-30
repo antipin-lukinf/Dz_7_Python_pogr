@@ -21,11 +21,11 @@ def read_file(strings_count=2, file_name='text_data.txt'):
             text_float = str(round(random.uniform(-1000, 1000), 3))
             my_text.append(text_int)
             my_text.append(text_float)
-            my_text.append('\n')
+            # my_text.append('\n')
         f.write('|'.join(my_text))
 
 
         f.close()
 
 
-read_file(3)
+read_file(1)
